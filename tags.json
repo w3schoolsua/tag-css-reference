@@ -1,0 +1,1003 @@
+[
+  {
+    "name": "a",
+    "description": "Гіперпосилання",
+    "defaultCSS": "a:-webkit-any-link {\n  color: -webkit-link;\n  cursor: pointer;\n  text-decoration: underline;\n}",
+    "specURL": "https://html.spec.whatwg.org/multipage/text-level-semantics.html#the-a-element",
+    "status": "standard"
+  },
+  {
+    "name": "abbr",
+    "description": "Абревіатура або скорочення",
+    "defaultCSS": "abbr[title] {\n  text-decoration: underline dotted;\n  cursor: help;\n}",
+    "specURL": "https://html.spec.whatwg.org/multipage/text-level-semantics.html#the-abbr-element",
+    "status": "standard"
+  },
+  {
+    "name": "acronym",
+    "description": "Абревіатура (застарілий тег)",
+    "defaultCSS": "acronym {\n  font-style: italic;\n}",
+    "specURL": "https://html.spec.whatwg.org/multipage/obsolete.html#acronym",
+    "status": "obsolete"
+  },
+  {
+    "name": "address",
+    "description": "Контактна інформація",
+    "defaultCSS": "address {\n  display: block;\n  font-style: italic;\n}",
+    "specURL": "https://html.spec.whatwg.org/multipage/sections.html#the-address-element",
+    "status": "standard"
+  },
+  {
+    "name": "applet",
+    "description": "Вбудований Java‑аплет (застарілий тег)",
+    "defaultCSS": "applet {\n  display: inline;\n}",
+    "specURL": "https://html.spec.whatwg.org/multipage/obsolete.html#applet",
+    "status": "obsolete"
+  },
+  {
+    "name": "area",
+    "description": "Область у мапі зображення",
+    "defaultCSS": "area {\n  display: none;\n}",
+    "specURL": "https://html.spec.whatwg.org/multipage/image-maps.html#the-area-element",
+    "status": "standard"
+  },
+  {
+    "name": "article",
+    "description": "Самостійний розділ документа",
+    "defaultCSS": "article {\n  display: block;\n}",
+    "specURL": "https://html.spec.whatwg.org/multipage/sections.html#the-article-element",
+    "status": "standard"
+  },
+  {
+    "name": "aside",
+    "description": "Бокова панель або додатковий контент",
+    "defaultCSS": "aside {\n  display: block;\n}",
+    "specURL": "https://html.spec.whatwg.org/multipage/sections.html#the-aside-element",
+    "status": "standard"
+  },
+  {
+    "name": "audio",
+    "description": "Аудіовміст",
+    "defaultCSS": "audio:not([controls]) {\n  display: none !important;\n  height: 0;\n}\naudio[controls] {\n  display: inline-block;\n}",
+    "specURL": "https://html.spec.whatwg.org/multipage/media.html#the-audio-element",
+    "status": "standard"
+  },
+  {
+    "name": "b",
+    "description": "Виділення без акценту",
+    "defaultCSS": "b {\n  font-weight: bolder;\n}",
+    "specURL": "https://html.spec.whatwg.org/multipage/text-level-semantics.html#the-b-element",
+    "status": "standard"
+  },
+  {
+    "name": "base",
+    "description": "Базова URL-адреса документа",
+    "defaultCSS": "base {\n  display: none;\n}",
+    "specURL": "https://html.spec.whatwg.org/multipage/semantics.html#the-base-element",
+    "status": "standard"
+  },
+  {
+    "name": "basefont",
+    "description": "Базовий розмір шрифту (застарілий тег)",
+    "defaultCSS": "basefont {\n  font-size: medium;\n}",
+    "specURL": "https://html.spec.whatwg.org/multipage/obsolete.html#basefont",
+    "status": "obsolete"
+  },
+  {
+    "name": "bdi",
+    "description": "Ізоляція напрямку тексту",
+    "defaultCSS": "bdi {\n  unicode-bidi: isolate;\n}",
+    "specURL": "https://html.spec.whatwg.org/multipage/text-level-semantics.html#the-bdi-element",
+    "status": "standard"
+  },
+  {
+    "name": "bdo",
+    "description": "Перевизначення напрямку тексту",
+    "defaultCSS": "bdo {\n  unicode-bidi: bidi-override;\n}",
+    "specURL": "https://html.spec.whatwg.org/multipage/text-level-semantics.html#the-bdo-element",
+    "status": "standard"
+  },
+  {
+    "name": "bgsound",
+    "description": "Фоновий звук (застарілий тег)",
+    "defaultCSS": "bgsound {\n  display: none;\n}",
+    "specURL": "https://html.spec.whatwg.org/multipage/obsolete.html#bgsound",
+    "status": "obsolete"
+  },
+  {
+    "name": "big",
+    "description": "Збільшений текст (застарілий тег)",
+    "defaultCSS": "big {\n  font-size: larger;\n}",
+    "specURL": "https://html.spec.whatwg.org/multipage/obsolete.html#big",
+    "status": "obsolete"
+  },
+  {
+    "name": "blink",
+    "description": "Мигаючий текст (застарілий тег)",
+    "defaultCSS": "blink {\n  text-decoration: blink;\n}",
+    "specURL": "https://html.spec.whatwg.org/multipage/obsolete.html#blink",
+    "status": "obsolete"
+  },
+  {
+    "name": "blockquote",
+    "description": "Блокова цитата",
+    "defaultCSS": "blockquote {\n  display: block;\n  margin-block-start: 1em;\n  margin-block-end: 1em;\n  margin-inline-start: 40px;\n  margin-inline-end: 40px;\n}",
+    "specURL": "https://html.spec.whatwg.org/multipage/grouping-content.html#the-blockquote-element",
+    "status": "standard"
+  },
+  {
+    "name": "body",
+    "description": "Основний вміст документа",
+    "defaultCSS": "body {\n  display: block;\n  margin: 8px;\n}",
+    "specURL": "https://html.spec.whatwg.org/multipage/semantics.html#the-body-element",
+    "status": "standard"
+  },
+  {
+    "name": "br",
+    "description": "Розрив рядка",
+    "defaultCSS": "br {\n  display: inline;\n}",
+    "specURL": "https://html.spec.whatwg.org/multipage/text-level-semantics.html#the-br-element",
+    "status": "standard"
+  },
+  {
+    "name": "button",
+    "description": "Кнопка",
+    "defaultCSS": "button {\n  appearance: auto;\n  text-rendering: auto;\n  color: buttontext;\n  display: inline-block;\n  text-align: center;\n  cursor: default;\n  background-color: buttonface;\n  padding: 1px 6px;\n  border-width: 2px;\n  border-style: outset;\n}",
+    "specURL": "https://html.spec.whatwg.org/multipage/form-elements.html#the-button-element",
+    "status": "standard"
+  },
+  {
+    "name": "canvas",
+    "description": "Полотно для малювання",
+    "defaultCSS": "canvas {\n  display: inline-block;\n}",
+    "specURL": "https://html.spec.whatwg.org/multipage/canvas.html#the-canvas-element",
+    "status": "standard"
+  },
+  {
+    "name": "caption",
+    "description": "Підпис таблиці",
+    "defaultCSS": "caption {\n  display: table-caption;\n  text-align: center;\n}",
+    "specURL": "https://html.spec.whatwg.org/multipage/tables.html#the-caption-element",
+    "status": "standard"
+  },
+  {
+    "name": "center",
+    "description": "Центрування тексту (застарілий тег)",
+    "defaultCSS": "center {\n  display: block;\n  text-align: center;\n}",
+    "specURL": "https://html.spec.whatwg.org/multipage/obsolete.html#center",
+    "status": "obsolete"
+  },
+  {
+    "name": "cite",
+    "description": "Назва роботи",
+    "defaultCSS": "cite {\n  font-style: italic;\n}",
+    "specURL": "https://html.spec.whatwg.org/multipage/text-level-semantics.html#the-cite-element",
+    "status": "standard"
+  },
+  {
+    "name": "code",
+    "description": "Фрагмент коду",
+    "defaultCSS": "code {\n  font-family: monospace;\n}",
+    "specURL": "https://html.spec.whatwg.org/multipage/text-level-semantics.html#the-code-element",
+    "status": "standard"
+  },
+  {
+    "name": "col",
+    "description": "Стовпець таблиці",
+    "defaultCSS": "col {\n  display: table-column;\n}",
+    "specURL": "https://html.spec.whatwg.org/multipage/tables.html#the-col-element",
+    "status": "standard"
+  },
+  {
+    "name": "colgroup",
+    "description": "Група стовпців таблиці",
+    "defaultCSS": "colgroup {\n  display: table-column-group;\n}",
+    "specURL": "https://html.spec.whatwg.org/multipage/tables.html#the-colgroup-element",
+    "status": "standard"
+  },
+  {
+    "name": "command",
+    "description": "Команда меню (застарілий тег)",
+    "defaultCSS": "command {\n  display: none;\n}",
+    "specURL": "https://html.spec.whatwg.org/multipage/obsolete.html#command",
+    "status": "obsolete"
+  },
+  {
+    "name": "content",
+    "description": "Shadow DOM insertion point (застарілий тег)",
+    "defaultCSS": "content {\n  display: none;\n}",
+    "specURL": "https://html.spec.whatwg.org/multipage/obsolete.html#content",
+    "status": "obsolete"
+  },
+  {
+    "name": "data",
+    "description": "Зв’язування контенту з машиночитаним значенням",
+    "defaultCSS": "data {\n  display: inline;\n}",
+    "specURL": "https://html.spec.whatwg.org/multipage/text-level-semantics.html#the-data-element",
+    "status": "standard"
+  },
+  {
+    "name": "datalist",
+    "description": "Список варіантів для input",
+    "defaultCSS": "datalist {\n  display: none;\n}",
+    "specURL": "https://html.spec.whatwg.org/multipage/form-elements.html#the-datalist-element",
+    "status": "standard"
+  },
+  {
+    "name": "dd",
+    "description": "Опис терміну",
+    "defaultCSS": "dd {\n  display: block;\n  margin-inline-start: 40px;\n}",
+    "specURL": "https://html.spec.whatwg.org/multipage/grouping-content.html#the-dd-element",
+    "status": "standard"
+  },
+  {
+    "name": "del",
+    "description": "Видалений текст",
+    "defaultCSS": "del {\n  text-decoration: line-through;\n}",
+    "specURL": "https://html.spec.whatwg.org/multipage/edits.html#the-del-element",
+    "status": "standard"
+  },
+  {
+    "name": "details",
+    "description": "Розкривний блок",
+    "defaultCSS": "details {\n  display: block;\n}",
+    "specURL": "https://html.spec.whatwg.org/multipage/interactive-elements.html#the-details-element",
+    "status": "standard"
+  },
+  {
+    "name": "dfn",
+    "description": "Термін, що визначається",
+    "defaultCSS": "dfn {\n  font-style: italic;\n}",
+    "specURL": "https://html.spec.whatwg.org/multipage/text-level-semantics.html#the-dfn-element",
+    "status": "standard"
+  },
+  {
+    "name": "dialog",
+    "description": "Діалогове вікно",
+    "defaultCSS": "dialog {\n  position: absolute;\n  inset: 0;\n  margin: auto;\n  border: solid;\n  padding: 1em;\n  background: canvas;\n  color: canvastext;\n}\ndialog:not([open]) {\n  display: none;\n}",
+    "specURL": "https://html.spec.whatwg.org/multipage/interactive-elements.html#the-dialog-element",
+    "status": "standard"
+  },
+  {
+    "name": "dir",
+    "description": "Список директорій (застарілий тег)",
+    "defaultCSS": "dir {\n  display: block;\n  list-style-type: disc;\n  padding-left: 40px;\n}",
+    "specURL": "https://html.spec.whatwg.org/multipage/obsolete.html#dir",
+    "status": "obsolete"
+  },
+  {
+    "name": "div",
+    "description": "Блочний контейнер",
+    "defaultCSS": "div {\n  display: block;\n}",
+    "specURL": "https://html.spec.whatwg.org/multipage/grouping-content.html#the-div-element",
+    "status": "standard"
+  },
+  {
+    "name": "dl",
+    "description": "Список визначень",
+    "defaultCSS": "dl {\n  display: block;\n  margin-block-start: 1em;\n  margin-block-end: 1em;\n}",
+    "specURL": "https://html.spec.whatwg.org/multipage/grouping-content.html#the-dl-element",
+    "status": "standard"
+  },
+  {
+    "name": "dt",
+    "description": "Термін у списку визначень",
+    "defaultCSS": "dt {\n  display: block;\n}",
+    "specURL": "https://html.spec.whatwg.org/multipage/grouping-content.html#the-dt-element",
+    "status": "standard"
+  },
+  {
+    "name": "em",
+    "description": "Логічне виділення (емфаза)",
+    "defaultCSS": "em {\n  font-style: italic;\n}",
+    "specURL": "https://html.spec.whatwg.org/multipage/text-level-semantics.html#the-em-element",
+    "status": "standard"
+  },
+  {
+    "name": "embed",
+    "description": "Вбудовуваний зовнішній ресурс",
+    "defaultCSS": "embed {\n  display: inline-block;\n}",
+    "specURL": "https://html.spec.whatwg.org/multipage/iframe-embed-object.html#the-embed-element",
+    "status": "standard"
+  },
+  {
+    "name": "fieldset",
+    "description": "Групування елементів форми",
+    "defaultCSS": "fieldset {\n  display: block;\n  margin-inline-start: 2px;\n  margin-inline-end: 2px;\n  padding-block-start: 0.35em;\n  padding-inline-start: 0.75em;\n  padding-inline-end: 0.75em;\n  padding-block-end: 0.625em;\n  border: 2px groove ThreeDFace;\n}",
+    "specURL": "https://html.spec.whatwg.org/multipage/form-elements.html#the-fieldset-element",
+    "status": "standard"
+  },
+  {
+    "name": "figcaption",
+    "description": "Підпис до figure",
+    "defaultCSS": "figcaption {\n  display: block;\n}",
+    "specURL": "https://html.spec.whatwg.org/multipage/grouping-content.html#the-figcaption-element",
+    "status": "standard"
+  },
+  {
+    "name": "figure",
+    "description": "Самостійний ілюстративний блок",
+    "defaultCSS": "figure {\n  display: block;\n  margin: 1em 40px;\n}",
+    "specURL": "https://html.spec.whatwg.org/multipage/grouping-content.html#the-figure-element",
+    "status": "standard"
+  },
+  {
+    "name": "font",
+    "description": "Зміна шрифту (obsolete)",
+    "defaultCSS": "font {\n  font-family: inherit;\n  font-size: inherit;\n  color: inherit;\n}",
+    "specURL": "https://html.spec.whatwg.org/multipage/obsolete.html#font",
+    "status": "obsolete"
+  },
+  {
+    "name": "footer",
+    "description": "Нижній колонтитул секції або сторінки",
+    "defaultCSS": "footer {\n  display: block;\n}",
+    "specURL": "https://html.spec.whatwg.org/multipage/sections.html#the-footer-element",
+    "status": "standard"
+  },
+  {
+    "name": "form",
+    "description": "Форма для введення даних",
+    "defaultCSS": "form {\n  display: block;\n  margin-top: 0em;\n}",
+    "specURL": "https://html.spec.whatwg.org/multipage/forms.html#the-form-element",
+    "status": "standard"
+  },
+  {
+    "name": "frame",
+    "description": "Фрейм (застарілий тег)",
+    "defaultCSS": "frame {\n  border: none;\n}",
+    "specURL": "https://html.spec.whatwg.org/multipage/obsolete.html#frame",
+    "status": "obsolete"
+  },
+  {
+    "name": "frameset",
+    "description": "Контейнер фреймів (застарілий тег)",
+    "defaultCSS": "frameset {\n  display: block;\n}",
+    "specURL": "https://html.spec.whatwg.org/multipage/obsolete.html#frameset",
+    "status": "obsolete"
+  },
+  {
+    "name": "h1",
+    "description": "Заголовок рівня 1",
+    "defaultCSS": "h1 {\n  display: block;\n  font-size: 2em;\n  margin-block-start: 0.67em;\n  margin-block-end: 0.67em;\n  font-weight: bold;\n}",
+    "specURL": "https://html.spec.whatwg.org/multipage/sections.html#the-h1-element",
+    "status": "standard"
+  },
+  {
+    "name": "h2",
+    "description": "Заголовок рівня 2",
+    "defaultCSS": "h2 {\n  display: block;\n  font-size: 1.5em;\n  margin-block-start: 0.83em;\n  margin-block-end: 0.83em;\n  font-weight: bold;\n}",
+    "specURL": "https://html.spec.whatwg.org/multipage/sections.html#the-h2-element",
+    "status": "standard"
+  },
+  {
+    "name": "h3",
+    "description": "Заголовок рівня 3",
+    "defaultCSS": "h3 {\n  display: block;\n  font-size: 1.17em;\n  margin-block-start: 1em;\n  margin-block-end: 1em;\n  font-weight: bold;\n}",
+    "specURL": "https://html.spec.whatwg.org/multipage/sections.html#the-h3-element",
+    "status": "standard"
+  },
+  {
+    "name": "h4",
+    "description": "Заголовок рівня 4",
+    "defaultCSS": "h4 {\n  display: block;\n  margin-block-start: 1.33em;\n  margin-block-end: 1.33em;\n  font-weight: bold;\n}",
+    "specURL": "https://html.spec.whatwg.org/multipage/sections.html#the-h4-element",
+    "status": "standard"
+  },
+  {
+    "name": "h5",
+    "description": "Заголовок рівня 5",
+    "defaultCSS": "h5 {\n  display: block;\n  font-size: 0.83em;\n  margin-block-start: 1.67em;\n  margin-block-end: 1.67em;\n  font-weight: bold;\n}",
+    "specURL": "https://html.spec.whatwg.org/multipage/sections.html#the-h5-element",
+    "status": "standard"
+  },
+  {
+    "name": "h6",
+    "description": "Заголовок рівня 6",
+    "defaultCSS": "h6 {\n  display: block;\n  font-size: 0.67em;\n  margin-block-start: 2.33em;\n  margin-block-end: 2.33em;\n  font-weight: bold;\n}",
+    "specURL": "https://html.spec.whatwg.org/multipage/sections.html#the-h6-element",
+    "status": "standard"
+  },
+  {
+    "name": "head",
+    "description": "Метаінформація документа",
+    "defaultCSS": "head {\n  display: none;\n}",
+    "specURL": "https://html.spec.whatwg.org/multipage/semantics.html#the-head-element",
+    "status": "standard"
+  },
+  {
+    "name": "header",
+    "description": "Верхній колонтитул секції або сторінки",
+    "defaultCSS": "header {\n  display: block;\n}",
+    "specURL": "https://html.spec.whatwg.org/multipage/sections.html#the-header-element",
+    "status": "standard"
+  },
+  {
+    "name": "hgroup",
+    "description": "Групування заголовків (застарілий тег)",
+    "defaultCSS": "hgroup {\n  display: block;\n}",
+    "specURL": "https://html.spec.whatwg.org/multipage/obsolete.html#hgroup",
+    "status": "obsolete"
+  },
+  {
+    "name": "hr",
+    "description": "Горизонтальна лінія",
+    "defaultCSS": "hr {\n  display: block;\n  unicode-bidi: isolate;\n  margin-block-start: 0.5em;\n  margin-block-end: 0.5em;\n  border-style: inset;\n  border-width: 1px;\n}",
+    "specURL": "https://html.spec.whatwg.org/multipage/grouping-content.html#the-hr-element",
+    "status": "standard"
+  },
+  {
+    "name": "html",
+    "description": "Кореневий елемент HTML-документа",
+    "defaultCSS": "html {\n  display: block;\n}",
+    "specURL": "https://html.spec.whatwg.org/multipage/semantics.html#the-html-element",
+    "status": "standard"
+  },
+  {
+    "name": "i",
+    "description": "Текст в іншому стилі (виділення без акценту)",
+    "defaultCSS": "i {\n  font-style: italic;\n}",
+    "specURL": "https://html.spec.whatwg.org/multipage/text-level-semantics.html#the-i-element",
+    "status": "standard"
+  },
+  {
+    "name": "iframe",
+    "description": "Вбудована рамка",
+    "defaultCSS": "iframe {\n  border: 2px inset;\n}",
+    "specURL": "https://html.spec.whatwg.org/multipage/iframe-embed-object.html#the-iframe-element",
+    "status": "standard"
+  },
+  {
+    "name": "image",
+    "description": "Альтернативний тег для img (застарілий тег)",
+    "defaultCSS": "image {\n  display: inline;\n}",
+    "specURL": "https://html.spec.whatwg.org/multipage/obsolete.html#image",
+    "status": "obsolete"
+  },
+  {
+    "name": "img",
+    "description": "Зображення",
+    "defaultCSS": "img {\n  display: inline-block;\n}",
+    "specURL": "https://html.spec.whatwg.org/multipage/embedded-content.html#the-img-element",
+    "status": "standard"
+  },
+  {
+    "name": "input",
+    "description": "Поле введення даних",
+    "defaultCSS": "input {\n  text-rendering: auto;\n  color: fieldtext;\n  letter-spacing: normal;\n  word-spacing: normal;\n  line-height: normal;\n  text-transform: none;\n  text-indent: 0px;\n  text-shadow: none;\n  display: inline-block;\n  text-align: start;\n  appearance: auto;\n  -webkit-rtl-ordering: logical;\n  cursor: text;\n  background-color: field;\n  margin: 0em;\n  padding: 1px 2px;\n  border-width: 2px;\n  border-style: inset;\n  border-color: field;\n}",
+    "specURL": "https://html.spec.whatwg.org/multipage/input.html#the-input-element",
+    "status": "standard"
+  },
+  {
+    "name": "ins",
+    "description": "Вставлений текст",
+    "defaultCSS": "ins {\n  text-decoration: underline;\n}",
+    "specURL": "https://html.spec.whatwg.org/multipage/edits.html#the-ins-element",
+    "status": "standard"
+  },
+  {
+    "name": "isindex",
+    "description": "Однорядкове поле пошуку (історичний тег, вилучений з HTML)",
+    "defaultCSS": "isindex {\n  display: none;\n}",
+    "specURL": "https://html.spec.whatwg.org/multipage/obsolete.html#isindex",
+    "status": "historical"
+  },
+  {
+    "name": "kbd",
+    "description": "Ввід з клавіатури",
+    "defaultCSS": "kbd {\n  font-family: monospace;\n}",
+    "specURL": "https://html.spec.whatwg.org/multipage/text-level-semantics.html#the-kbd-element",
+    "status": "standard"
+  },
+  {
+    "name": "keygen",
+    "description": "Генератор криптографічних ключів (застарілий тег)",
+    "defaultCSS": "keygen {\n  display: inline-block;\n}",
+    "specURL": "https://html.spec.whatwg.org/multipage/obsolete.html#keygen",
+    "status": "obsolete"
+  },
+  {
+    "name": "label",
+    "description": "Мітка для елемента форми",
+    "defaultCSS": "label {\n  cursor: default;\n}",
+    "specURL": "https://html.spec.whatwg.org/multipage/form-elements.html#the-label-element",
+    "status": "standard"
+  },
+  {
+    "name": "legend",
+    "description": "Заголовок для fieldset",
+    "defaultCSS": "legend {\n  display: block;\n  padding-inline-start: 2px;\n  padding-inline-end: 2px;\n}",
+    "specURL": "https://html.spec.whatwg.org/multipage/form-elements.html#the-legend-element",
+    "status": "standard"
+  },
+  {
+    "name": "li",
+    "description": "Елемент списку",
+    "defaultCSS": "li {\n  display: list-item;\n}",
+    "specURL": "https://html.spec.whatwg.org/multipage/grouping-content.html#the-li-element",
+    "status": "standard"
+  },
+  {
+    "name": "link",
+    "description": "Посилання на зовнішній ресурс",
+    "defaultCSS": "link {\n  display: none;\n}",
+    "specURL": "https://html.spec.whatwg.org/multipage/semantics.html#the-link-element",
+    "status": "standard"
+  },
+  {
+    "name": "listing",
+    "description": "Вивід тексту у вигляді листингу (історичний тег)",
+    "defaultCSS": "listing {\n  white-space: pre;\n  font-family: monospace;\n}",
+    "specURL": "https://html.spec.whatwg.org/multipage/obsolete.html#listing",
+    "status": "historical"
+  },
+  {
+    "name": "main",
+    "description": "Основний вміст документа",
+    "defaultCSS": "main {\n  display: block;\n}",
+    "specURL": "https://html.spec.whatwg.org/multipage/sections.html#the-main-element",
+    "status": "standard"
+  },
+  {
+    "name": "map",
+    "description": "Мапа зображення",
+    "defaultCSS": "map {\n  display: inline;\n}",
+    "specURL": "https://html.spec.whatwg.org/multipage/image-maps.html#the-map-element",
+    "status": "standard"
+  },
+  {
+    "name": "mark",
+    "description": "Виділений фрагмент тексту",
+    "defaultCSS": "mark {\n  background-color: yellow;\n  color: black;\n}",
+    "specURL": "https://html.spec.whatwg.org/multipage/text-level-semantics.html#the-mark-element",
+    "status": "standard"
+  },
+  {
+    "name": "marquee",
+    "description": "Рухомий текст (застарілий тег)",
+    "defaultCSS": "marquee {\n  display: inline-block;\n  overflow: hidden;\n}",
+    "specURL": "https://html.spec.whatwg.org/multipage/obsolete.html#marquee",
+    "status": "obsolete"
+  },
+  {
+    "name": "menu",
+    "description": "Список команд (obsolete)",
+    "defaultCSS": "menu {\n  display: block;\n  list-style-type: disc;\n  margin-block-start: 1em;\n  margin-block-end: 1em;\n  margin-inline-start: 0;\n  margin-inline-end: 0;\n  padding-inline-start: 40px;\n}",
+    "specURL": "https://html.spec.whatwg.org/multipage/obsolete.html#menu",
+    "status": "obsolete"
+  },
+  {
+    "name": "menuitem",
+    "description": "Пункт меню (застарілий тег)",
+    "defaultCSS": "menuitem {\n  display: none;\n}",
+    "specURL": "https://html.spec.whatwg.org/multipage/obsolete.html#menuitem",
+    "status": "obsolete"
+  },
+  {
+    "name": "meta",
+    "description": "Метаінформація документа",
+    "defaultCSS": "meta {\n  display: none;\n}",
+    "specURL": "https://html.spec.whatwg.org/multipage/semantics.html#the-meta-element",
+    "status": "standard"
+  },
+  {
+    "name": "meter",
+    "description": "Шкала вимірювання",
+    "defaultCSS": "meter {\n  appearance: auto;\n  box-sizing: border-box;\n  display: inline-block;\n  height: 1em;\n  width: 5em;\n}",
+    "specURL": "https://html.spec.whatwg.org/multipage/form-elements.html#the-meter-element",
+    "status": "standard"
+  },
+  {
+    "name": "nav",
+    "description": "Навігаційний розділ",
+    "defaultCSS": "nav {\n  display: block;\n}",
+    "specURL": "https://html.spec.whatwg.org/multipage/sections.html#the-nav-element",
+    "status": "standard"
+  },
+  {
+    "name": "nextid",
+    "description": "Генератор унікальних ID (історичний тег, вилучений з HTML)",
+    "defaultCSS": "nextid {\n  display: none;\n}",
+    "specURL": "https://html.spec.whatwg.org/multipage/obsolete.html#nextid",
+    "status": "historical"
+  },
+  {
+    "name": "nobr",
+    "description": "Текст без переносу (застарілий тег)",
+    "defaultCSS": "nobr {\n  white-space: nowrap;\n}",
+    "specURL": "https://html.spec.whatwg.org/multipage/obsolete.html#nobr",
+    "status": "obsolete"
+  },
+  {
+    "name": "noembed",
+    "description": "Fallback для embed (застарілий тег)",
+    "defaultCSS": "noembed {\n  display: none;\n}",
+    "specURL": "https://html.spec.whatwg.org/multipage/obsolete.html#noembed",
+    "status": "obsolete"
+  },
+  {
+    "name": "noframes",
+    "description": "Fallback для frameset (застарілий тег)",
+    "defaultCSS": "noframes {\n  display: none;\n}",
+    "specURL": "https://html.spec.whatwg.org/multipage/obsolete.html#noframes",
+    "status": "obsolete"
+  },
+  {
+    "name": "noscript",
+    "description": "Контент для браузерів без підтримки JavaScript",
+    "defaultCSS": "noscript {\n  display: none;\n}",
+    "specURL": "https://html.spec.whatwg.org/multipage/scripting.html#the-noscript-element",
+    "status": "standard"
+  },
+  {
+    "name": "object",
+    "description": "Вбудований об’єкт",
+    "defaultCSS": "object {\n  display: inline-block;\n}",
+    "specURL": "https://html.spec.whatwg.org/multipage/iframe-embed-object.html#the-object-element",
+    "status": "standard"
+  },
+  {
+    "name": "ol",
+    "description": "Нумерований список",
+    "defaultCSS": "ol {\n  display: block;\n  list-style-type: decimal;\n  margin-block-start: 1em;\n  margin-block-end: 1em;\n  padding-inline-start: 40px;\n}",
+    "specURL": "https://html.spec.whatwg.org/multipage/grouping-content.html#the-ol-element",
+    "status": "standard"
+  },
+  {
+    "name": "optgroup",
+    "description": "Група варіантів select",
+    "defaultCSS": "optgroup {\n  font-weight: bold;\n}",
+    "specURL": "https://html.spec.whatwg.org/multipage/form-elements.html#the-optgroup-element",
+    "status": "standard"
+  },
+  {
+    "name": "option",
+    "description": "Варіант у select",
+    "defaultCSS": "option {\n  display: block;\n  white-space: nowrap;\n}",
+    "specURL": "https://html.spec.whatwg.org/multipage/form-elements.html#the-option-element",
+    "status": "standard"
+  },
+  {
+    "name": "output",
+    "description": "Результат обчислення",
+    "defaultCSS": "output {\n  display: inline;\n}",
+    "specURL": "https://html.spec.whatwg.org/multipage/form-elements.html#the-output-element",
+    "status": "standard"
+  },
+  {
+    "name": "p",
+    "description": "Параграф",
+    "defaultCSS": "p {\n  display: block;\n  margin-block-start: 1em;\n  margin-block-end: 1em;\n}",
+    "specURL": "https://html.spec.whatwg.org/multipage/grouping-content.html#the-p-element",
+    "status": "standard"
+  },
+  {
+    "name": "picture",
+    "description": "Адаптивні зображення",
+    "defaultCSS": "picture {\n  display: inline-block;\n}",
+    "specURL": "https://html.spec.whatwg.org/multipage/embedded-content.html#the-picture-element",
+    "status": "standard"
+  },
+  {
+    "name": "plaintext",
+    "description": "Вивід чистого тексту без HTML‑парсингу (застарілий тег)",
+    "defaultCSS": "plaintext {\n  white-space: pre;\n}",
+    "specURL": "https://html.spec.whatwg.org/multipage/obsolete.html#plaintext",
+    "status": "obsolete"
+  },
+  {
+    "name": "pre",
+    "description": "Попередньо форматований текст",
+    "defaultCSS": "pre {\n  display: block;\n  font-family: monospace;\n  white-space: pre;\n  margin: 1em 0;\n}",
+    "specURL": "https://html.spec.whatwg.org/multipage/grouping-content.html#the-pre-element",
+    "status": "standard"
+  },
+  {
+    "name": "progress",
+    "description": "Індикатор прогресу",
+    "defaultCSS": "progress {\n  appearance: auto;\n  display: inline-block;\n  width: 10em;\n  height: 1em;\n}",
+    "specURL": "https://html.spec.whatwg.org/multipage/form-elements.html#the-progress-element",
+    "status": "standard"
+  },
+  {
+    "name": "q",
+    "description": "Коротка цитата",
+    "defaultCSS": "q {\n  display: inline;\n}",
+    "specURL": "https://html.spec.whatwg.org/multipage/text-level-semantics.html#the-q-element",
+    "status": "standard"
+  },
+  {
+    "name": "rb",
+    "description": "Ruby base (застарілий тег)",
+    "defaultCSS": "rb {\n  display: ruby-base;\n}",
+    "specURL": "https://html.spec.whatwg.org/multipage/obsolete.html#rb",
+    "status": "obsolete"
+  },
+  {
+    "name": "rp",
+    "description": "Fallback для ruby",
+    "defaultCSS": "rp {\n  display: none;\n}",
+    "specURL": "https://html.spec.whatwg.org/multipage/text-level-semantics.html#the-rp-element",
+    "status": "standard"
+  },
+  {
+    "name": "rt",
+    "description": "Текст ruby‑анотації",
+    "defaultCSS": "rt {\n  font-size: 50%;\n}",
+    "specURL": "https://html.spec.whatwg.org/multipage/text-level-semantics.html#the-rt-element",
+    "status": "standard"
+  },
+  {
+    "name": "rtc",
+    "description": "Ruby text container (застарілий тег)",
+    "defaultCSS": "rtc {\n  display: ruby-text-container;\n}",
+    "specURL": "https://html.spec.whatwg.org/multipage/obsolete.html#rtc",
+    "status": "obsolete"
+  },
+  {
+    "name": "ruby",
+    "description": "Ruby‑анотації для східноазійських мов",
+    "defaultCSS": "ruby {\n  display: ruby;\n}",
+    "specURL": "https://html.spec.whatwg.org/multipage/text-level-semantics.html#the-ruby-element",
+    "status": "standard"
+  },
+  {
+    "name": "s",
+    "description": "Закреслений текст",
+    "defaultCSS": "s {\n  text-decoration: line-through;\n}",
+    "specURL": "https://html.spec.whatwg.org/multipage/text-level-semantics.html#the-s-element",
+    "status": "standard"
+  },
+  {
+    "name": "samp",
+    "description": "Вихід комп’ютерної програми",
+    "defaultCSS": "samp {\n  font-family: monospace;\n}",
+    "specURL": "https://html.spec.whatwg.org/multipage/text-level-semantics.html#the-samp-element",
+    "status": "standard"
+  },
+  {
+    "name": "script",
+    "description": "Скрипт",
+    "defaultCSS": "script {\n  display: none;\n}",
+    "specURL": "https://html.spec.whatwg.org/multipage/scripting.html#the-script-element",
+    "status": "standard"
+  },
+  {
+    "name": "section",
+    "description": "Розділ документа",
+    "defaultCSS": "section {\n  display: block;\n}",
+    "specURL": "https://html.spec.whatwg.org/multipage/sections.html#the-section-element",
+    "status": "standard"
+  },
+  {
+    "name": "select",
+    "description": "Випадаючий список",
+    "defaultCSS": "select {\n  appearance: auto;\n  box-sizing: border-box;\n  align-items: center;\n  white-space: pre;\n  color: fieldtext;\n  background-color: field;\n  cursor: default;\n  border-width: 1px;\n  border-style: solid;\n  border-color: field;\n}",
+    "specURL": "https://html.spec.whatwg.org/multipage/form-elements.html#the-select-element",
+    "status": "standard"
+  },
+  {
+    "name": "shadow",
+    "description": "Shadow DOM insertion point (старий API, застарілий тег)",
+    "defaultCSS": "shadow {\n  display: none;\n}",
+    "specURL": "https://html.spec.whatwg.org/multipage/obsolete.html#shadow",
+    "status": "obsolete"
+  },
+  {
+    "name": "slot",
+    "description": "Слот для Web Components",
+    "defaultCSS": "slot {\n  display: contents;\n}",
+    "specURL": "https://html.spec.whatwg.org/multipage/scripting.html#the-slot-element",
+    "status": "standard"
+  },
+  {
+    "name": "small",
+    "description": "Зменшений текст",
+    "defaultCSS": "small {\n  font-size: smaller;\n}",
+    "specURL": "https://html.spec.whatwg.org/multipage/text-level-semantics.html#the-small-element",
+    "status": "standard"
+  },
+  {
+    "name": "source",
+    "description": "Джерело мультимедіа",
+    "defaultCSS": "source {\n  display: none;\n}",
+    "specURL": "https://html.spec.whatwg.org/multipage/embedded-content.html#the-source-element",
+    "status": "standard"
+  },
+  {
+    "name": "spacer",
+    "description": "Простір між елементами (застарілий тег)",
+    "defaultCSS": "spacer {\n  display: inline-block;\n}",
+    "specURL": "https://html.spec.whatwg.org/multipage/obsolete.html#spacer",
+    "status": "obsolete"
+  },
+  {
+    "name": "span",
+    "description": "Універсальний інлайн‑контейнер",
+    "defaultCSS": "span {\n  display: inline;\n}",
+    "specURL": "https://html.spec.whatwg.org/multipage/text-level-semantics.html#the-span-element",
+    "status": "standard"
+  },
+  {
+    "name": "strike",
+    "description": "Закреслений текст (застарілий тег)",
+    "defaultCSS": "strike {\n  text-decoration: line-through;\n}",
+    "specURL": "https://html.spec.whatwg.org/multipage/obsolete.html#strike",
+    "status": "obsolete"
+  },
+  {
+    "name": "strong",
+    "description": "Сильне логічне виділення",
+    "defaultCSS": "strong {\n  font-weight: bolder;\n}",
+    "specURL": "https://html.spec.whatwg.org/multipage/text-level-semantics.html#the-strong-element",
+    "status": "standard"
+  },
+  {
+    "name": "style",
+    "description": "Вбудовані стилі",
+    "defaultCSS": "style {\n  display: none;\n}",
+    "specURL": "https://html.spec.whatwg.org/multipage/semantics.html#the-style-element",
+    "status": "standard"
+  },
+  {
+    "name": "sub",
+    "description": "Нижній індекс",
+    "defaultCSS": "sub {\n  vertical-align: sub;\n  font-size: smaller;\n}",
+    "specURL": "https://html.spec.whatwg.org/multipage/text-level-semantics.html#the-sub-and-sup-elements",
+    "status": "standard"
+  },
+  {
+    "name": "summary",
+    "description": "Заголовок details",
+    "defaultCSS": "summary {\n  display: list-item;\n  cursor: pointer;\n}",
+    "specURL": "https://html.spec.whatwg.org/multipage/interactive-elements.html#the-summary-element",
+    "status": "standard"
+  },
+  {
+    "name": "sup",
+    "description": "Верхній індекс",
+    "defaultCSS": "sup {\n  vertical-align: super;\n  font-size: smaller;\n}",
+    "specURL": "https://html.spec.whatwg.org/multipage/text-level-semantics.html#the-sub-and-sup-elements",
+    "status": "standard"
+  },
+  {
+    "name": "svg",
+    "description": "SVG‑графіка (в HTML namespace — foreign element)",
+    "defaultCSS": "svg {\n  display: inline-block;\n}",
+    "specURL": "https://svgwg.org/svg2-draft/",
+    "status": "standard"
+  },
+  {
+    "name": "table",
+    "description": "Таблиця",
+    "defaultCSS": "table {\n  display: table;\n  border-collapse: separate;\n  border-spacing: 2px;\n}",
+    "specURL": "https://html.spec.whatwg.org/multipage/tables.html#the-table-element",
+    "status": "standard"
+  },
+  {
+    "name": "tbody",
+    "description": "Тіло таблиці",
+    "defaultCSS": "tbody {\n  display: table-row-group;\n}",
+    "specURL": "https://html.spec.whatwg.org/multipage/tables.html#the-tbody-element",
+    "status": "standard"
+  },
+  {
+    "name": "td",
+    "description": "Комірка таблиці",
+    "defaultCSS": "td {\n  display: table-cell;\n  padding: 1px;\n}",
+    "specURL": "https://html.spec.whatwg.org/multipage/tables.html#the-td-element",
+    "status": "standard"
+  },
+  {
+    "name": "template",
+    "description": "Шаблонний контент",
+    "defaultCSS": "template {\n  display: none;\n}",
+    "specURL": "https://html.spec.whatwg.org/multipage/scripting.html#the-template-element",
+    "status": "standard"
+  },
+  {
+    "name": "textarea",
+    "description": "Багаторядкове поле введення",
+    "defaultCSS": "textarea {\n  appearance: auto;\n  white-space: pre-wrap;\n  border: 1px solid;\n  padding: 2px;\n}",
+    "specURL": "https://html.spec.whatwg.org/multipage/form-elements.html#the-textarea-element",
+    "status": "standard"
+  },
+  {
+    "name": "tfoot",
+    "description": "Нижня частина таблиці",
+    "defaultCSS": "tfoot {\n  display: table-footer-group;\n}",
+    "specURL": "https://html.spec.whatwg.org/multipage/tables.html#the-tfoot-element",
+    "status": "standard"
+  },
+  {
+    "name": "th",
+    "description": "Заголовок комірки таблиці",
+    "defaultCSS": "th {\n  display: table-cell;\n  font-weight: bold;\n  text-align: center;\n}",
+    "specURL": "https://html.spec.whatwg.org/multipage/tables.html#the-th-element",
+    "status": "standard"
+  },
+  {
+    "name": "thead",
+    "description": "Верхня частина таблиці",
+    "defaultCSS": "thead {\n  display: table-header-group;\n}",
+    "specURL": "https://html.spec.whatwg.org/multipage/tables.html#the-thead-element",
+    "status": "standard"
+  },
+  {
+    "name": "time",
+    "description": "Дата або час",
+    "defaultCSS": "time {\n  display: inline;\n}",
+    "specURL": "https://html.spec.whatwg.org/multipage/text-level-semantics.html#the-time-element",
+    "status": "standard"
+  },
+  {
+    "name": "title",
+    "description": "Назва документа",
+    "defaultCSS": "title {\n  display: none;\n}",
+    "specURL": "https://html.spec.whatwg.org/multipage/semantics.html#the-title-element",
+    "status": "standard"
+  },
+  {
+    "name": "tr",
+    "description": "Рядок таблиці",
+    "defaultCSS": "tr {\n  display: table-row;\n}",
+    "specURL": "https://html.spec.whatwg.org/multipage/tables.html#the-tr-element",
+    "status": "standard"
+  },
+  {
+    "name": "track",
+    "description": "Текстові доріжки для відео/аудіо",
+    "defaultCSS": "track {\n  display: none;\n}",
+    "specURL": "https://html.spec.whatwg.org/multipage/media.html#the-track-element",
+    "status": "standard"
+  },
+  {
+    "name": "tt",
+    "description": "Телетайпний текст (застарілий тег)",
+    "defaultCSS": "tt {\n  font-family: monospace;\n}",
+    "specURL": "https://html.spec.whatwg.org/multipage/obsolete.html#tt",
+    "status": "obsolete"
+  },
+  {
+    "name": "u",
+    "description": "Підкреслений текст",
+    "defaultCSS": "u {\n  text-decoration: underline;\n}",
+    "specURL": "https://html.spec.whatwg.org/multipage/text-level-semantics.html#the-u-element",
+    "status": "standard"
+  },
+  {
+    "name": "ul",
+    "description": "Маркірований список",
+    "defaultCSS": "ul {\n  display: block;\n  list-style-type: disc;\n  margin-block-start: 1em;\n  margin-block-end: 1em;\n  padding-inline-start: 40px;\n}",
+    "specURL": "https://html.spec.whatwg.org/multipage/grouping-content.html#the-ul-element",
+    "status": "standard"
+  },
+  {
+    "name": "var",
+    "description": "Змінна у математичних виразах або коді",
+    "defaultCSS": "var {\n  font-style: italic;\n}",
+    "specURL": "https://html.spec.whatwg.org/multipage/text-level-semantics.html#the-var-element",
+    "status": "standard"
+  },
+  {
+    "name": "video",
+    "description": "Відеовміст",
+    "defaultCSS": "video:not([controls]) {\n  display: none !important;\n  height: 0;\n}\nvideo[controls] {\n  display: inline-block;\n}",
+    "specURL": "https://html.spec.whatwg.org/multipage/media.html#the-video-element",
+    "status": "standard"
+  },
+  {
+    "name": "wbr",
+    "description": "Можливий перенос рядка",
+    "defaultCSS": "wbr {\n  display: inline;\n}",
+    "specURL": "https://html.spec.whatwg.org/multipage/text-level-semantics.html#the-wbr-element",
+    "status": "standard"
+  },
+  {
+    "name": "xmp",
+    "description": "Сирий текст без HTML‑парсингу (застарілий тег)",
+    "defaultCSS": "xmp {\n  white-space: pre;\n}",
+    "specURL": "https://html.spec.whatwg.org/multipage/obsolete.html#xmp",
+    "status": "obsolete"
+  }
+]

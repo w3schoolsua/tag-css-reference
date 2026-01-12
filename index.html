@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="uk">
+<head>
+    <meta charset="UTF-8">
+    <title>HTML елементи — повний довідник</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <meta name="description" content="Повний інтерактивний довідник HTML‑елементів: стандартні, застарілі та історичні теги з категоріями, описами, фільтрами та сортуванням.">
+    <meta name="keywords" content="HTML, HTML tags, HTML elements, довідник HTML, теги HTML, web development, frontend">
+    <meta name="author" content="W3SchoolsUA">
+    <meta name="robots" content="index, follow">
+
+    <link rel="icon" type="image/svg+xml" href="favicon.svg">
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+<div class="page">
+    <div class="card">
+
+        <!-- HEADER -->
+        <div class="card-header">
+            <div class="title-block">
+                <h1>HTML елементи — повний довідник</h1>
+                <p>Усі елементи HTML‑простору імен: стандартні, застарілі та історичні.</p>
+            </div>
+
+            <div class="header-actions">
+                <button id="theme-toggle" class="theme-toggle" type="button">
+                    <span class="theme-toggle-icon">🌙</span>
+                    <span class="theme-toggle-label">Темна тема</span>
+                </button>
+
+                <div class="badge">
+                    <span class="badge-dot"></span>
+                    <span>Автогенерація з JSON</span>
+                </div>
+            </div>
+        </div>
+
+        <!-- CONTROLS -->
+        <div class="controls">
+
+            <!-- SEARCH -->
+            <div class="search-input">
+                <span class="search-input-icon">🔍</span>
+                <label for="search"></label>
+                <input id="search" type="text" placeholder="Пошук за тегом, описом або CSS…">
+            </div>
+
+            <!-- FILTERS -->
+            <div class="filter-group">
+                <div class="filter-chip active" data-status="all">
+                    <span>Усі</span>
+                </div>
+
+                <div class="filter-chip" data-status="standard">
+                    <span class="filter-dot standard"></span>
+                    <span>Standard</span>
+                </div>
+
+                <div class="filter-chip" data-status="obsolete">
+                    <span class="filter-dot obsolete"></span>
+                    <span>Obsolete</span>
+                </div>
+
+                <div class="filter-chip" data-status="historical">
+                    <span class="filter-dot historical"></span>
+                    <span>Historical</span>
+                </div>
+            </div>
+        </div>
+
+        <!-- TABLE -->
+        <div class="table-wrapper">
+            <table>
+                <thead>
+                <tr>
+                    <th data-sort-key="name">Тег</th>
+                    <th data-sort-key="description">Опис</th>
+                    <th data-sort-key="defaultCSS">CSS за замовчуванням</th>
+                    <th data-sort-key="status">Статус</th>
+                </tr>
+                </thead>
+
+                <tbody id="elements-table-body">
+                <!-- Автогенерація з tags.json -->
+                </tbody>
+            </table>
+        </div>
+
+        <!-- FOOTER -->
+        <div class="footer-note">
+            <span id="elements-count">Елементів: …</span>
+            <span>
+                Джерела:
+                <a href="https://w3schoolsua.github.io/" target="_blank" rel="nofollow noopener">W3SchoolsUA</a>,
+                <a href="https://developer.mozilla.org" target="_blank" rel="nofollow noopener">MDN</a>,
+                <a href="https://www.tutorialrepublic.com/" target="_blank" rel="nofollow noopener">TutorialRepublic</a>
+                <br>(HTML namespace, без SVG/MathML)
+            </span>
+        </div>
+
+    </div>
+</div>
+
+<script src="script.js" defer></script>
+</body>
+</html>
