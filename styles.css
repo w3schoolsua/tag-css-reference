@@ -15,7 +15,7 @@
     --table-row-hover: #e0edff;
     --chip-bg: #fff;
     --chip-border: #d1d5db;
-    --code-bg: #5a7ad6;
+    --code-bg: #016624;
     --code-text: #eee;
     --code-border: 1px solid rgba(32, 32, 74, 0.7);
     --tag-hover-bg: rgb(131, 2, 2);
@@ -35,7 +35,7 @@
     --table-row-hover: rgba(30, 64, 175, 0.7);
     --chip-bg: rgba(15, 23, 42, 0.9);
     --chip-border: rgba(148, 163, 184, 0.7);
-    --code-bg: #1a2783;
+    --code-bg: #02461a;
     --code-text: #ddd;
     --code-border: 1px solid rgba(151, 165, 184, 0.7);
     --tag-hover-bg: rgb(131, 2, 2);

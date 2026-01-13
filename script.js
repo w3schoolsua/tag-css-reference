@@ -34,8 +34,6 @@ document.addEventListener("DOMContentLoaded", () => {
         });
     }
 
-
-
     /* -------------------- ELEMENTS / DOM -------------------- */
 
     const tbody = document.getElementById("elements-table-body");
@@ -52,7 +50,6 @@ document.addEventListener("DOMContentLoaded", () => {
     let allTags = [];
     let viewTags = [];
     let currentSort = { key: null, asc: true };
-
 
 
     /* -------------------- LOAD JSON -------------------- */
@@ -84,7 +81,6 @@ document.addEventListener("DOMContentLoaded", () => {
             console.error("Помилка JSON:", err);
             if (countSpan) countSpan.textContent = "Елементів: помилка завантаження";
         });
-
 
 
     /* -------------------- RENDER TABLE -------------------- */
@@ -121,8 +117,6 @@ document.addEventListener("DOMContentLoaded", () => {
         if (countSpan) countSpan.textContent = "Елементів: " + n;
     }
 
-
-
     /* -------------------- SEARCH -------------------- */
 
     function initSearch() {
@@ -132,8 +126,6 @@ document.addEventListener("DOMContentLoaded", () => {
             applyFiltersAndSearch();
         });
     }
-
-
 
     /* -------------------- FILTERS -------------------- */
 
@@ -153,8 +145,6 @@ document.addEventListener("DOMContentLoaded", () => {
         const active = document.querySelector(".filter-chip.active");
         return active ? active.dataset.status : "all";
     }
-
-
 
     /* -------------------- APPLY FILTERS + SEARCH + SORT -------------------- */
 
@@ -188,8 +178,6 @@ document.addEventListener("DOMContentLoaded", () => {
         renderTable(viewTags);
         updateCount(viewTags.length);
     }
-
-
 
     /* -------------------- SORTING -------------------- */
 
